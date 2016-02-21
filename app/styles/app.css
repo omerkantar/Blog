@@ -1,0 +1,47 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font: "Futura";
+}
+
+li {
+  list-style: none;
+}
+
+aside {
+  border-top: 2px solid black;
+  position: fixed;
+  font-family: "Futura";
+  left: 15%;
+  width: 100px;
+  top: 100px;
+
+}
+
+aside h3 {
+  text-align: right;
+  text-decoration: inherit;
+  color: black;
+}
+
+
+.main-container {
+  position: absolute;
+  left: 25%;
+  right: 20%;
+  min-width: 55%;
+  top: 100px;
+  box-shadow: rgba(208, 208, 208, 0.2) 0px 0px 25px;
+  font-family: sans-serif;
+}
+
+.ember-view {
+  text-decoration: none;
+}
+
+.ember-view:active {
+  text-decoration: line-through;
+}
